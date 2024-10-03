@@ -1,6 +1,6 @@
 const { readFileSync } = require('fs');
-const Repositorio = require("./repositorio.js");
-const ServicoCalculoFatura = require("./servico.js");
+const Repositorio = require("./repo.js");
+const ServicoCalculoFatura = require("./service.js");
 const gerarFaturaStr = require("./apresentacao.js");
 
 const faturas = JSON.parse(readFileSync('./faturas.json'));
